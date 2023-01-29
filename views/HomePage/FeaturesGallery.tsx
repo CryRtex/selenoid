@@ -13,7 +13,7 @@ const TABS = [
     title: 'Kendine Özgü Sunucunu Oluştur - Ücretiz Olarak',
     description:
       '<p>Kendine özgü sunucunu tek adımda oluştur ve kullanmaya başla. İşte bu kadar basit</p>',
-    imageUrl: '/logoipsum-logo-6.png',
+    imageUrl: 'https://res.cloudinary.com/do6z8bo0x/image/upload/v1675000140/selenoid/logoipsum-logo-6_fpuf9h.png',
     baseColor: '249,82,120',
     secondColor: '221,9,57',
   },
