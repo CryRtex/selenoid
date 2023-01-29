@@ -10,7 +10,7 @@ import { media } from 'utils/media';
 
 const TABS = [
   {
-    title: 'Kendine Özgü Sunucunu Oluştur',
+    title: 'Kendine Özgü Sunucunu Oluştur - Ücretiz Olarak',
     description:
       '<p>Kendine özgü sunucunu tek adımda oluştur ve kullanmaya başla. İşte bu kadar basit</p>',
     imageUrl: '/logoipsum-logo-6.png',
@@ -18,7 +18,7 @@ const TABS = [
     secondColor: '221,9,57',
   },
   {
-    title: 'Ek Özellikler',
+    title: 'Ek Özellikler - Kullanıma Tamamen Açık',
     description:
       '<p>Sunucuna ek özellik eklemek çok basit tek tuşla entegre et ve özellik aktif olsun.</p>',
     imageUrl: '/logoipsum-logo-7.png',
@@ -26,7 +26,7 @@ const TABS = [
     secondColor: '99,172,232',
   },
   {
-    title: 'Vee Sonunda İşlemciler',
+    title: 'Vee Sonunda İşlemciler Hemde İleri Düzey',
     description:
       '<p>İşlemcilerimizi tamamen AMD üzerinde konfigüre ediyor ve sizler için en iyi işlemciyi oluşturuyoruz.</p>',
     imageUrl: '/logoipsum-logo-6.png',
