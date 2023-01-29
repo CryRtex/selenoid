@@ -36,7 +36,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           <BasicSection imageUrl="/demo-illustration-2.svg" title="Sunucu saati ve ek özellikler." overTitle="Nasıl Kazanırım" reversed>
             <p>
               Sunucu saati kazanmak yada ek özellikler mi istiyorsun bize panelden bir bilet açman yeterli olacaktır{' '}
-              <strong>Daha yüksek kaynaklara mı ihtiyacın var?
+              <strong>Daha yüksek kaynaklara mı ihtiyacın var?/>
             </p>
             
           </BasicSection>
