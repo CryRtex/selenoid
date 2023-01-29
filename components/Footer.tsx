@@ -21,6 +21,8 @@ const footerItems: FooterItems = [
     title: 'Ürünler',
     items: [
       { title: 'Özellikler', href: '/features' },
+      { title: 'Sunucular', href: 'https://selenoid.tech/panel/' },
+      { title: 'Kullanıcı Paneli', href: 'https://selenoid.tech/panel/' },
     ],
   },
   {
