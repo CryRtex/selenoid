@@ -101,7 +101,7 @@ const NavItemList = styled.div`
 `;
 
 const HamburgerMenuWrapper = styled.div`
-  ${media('>=desktop')} {
+  ${media('>=mobil')} {
     display: none;
   }
 `;
