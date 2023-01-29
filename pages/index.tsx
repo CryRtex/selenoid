@@ -20,7 +20,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <title>{EnvVars.SITE_NAME}</title>
         <meta
           name="description"
-          content="Selenoid Free Software Server Desk"
+          content="Selenoid Free Software Server Desk || AMD Threadripper Server And More"
         />
       </Head>
       <HomepageWrapper>
