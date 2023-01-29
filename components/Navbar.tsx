@@ -72,7 +72,11 @@ export default function Navbar({ items }: NavbarProps) {
             <Logo />
           </LogoWrapper>
         </NextLink>
-        
+        <NavItemList>
+          {items.map((singleItem) => (
+            <NavItem key={singleItem.href} {...singleItem} />
+          ))}
+        </NavItemList>
         <ColorSwitcherContainer>
           <ColorSwitcher />
         </ColorSwitcherContainer>
@@ -84,7 +88,25 @@ export default function Navbar({ items }: NavbarProps) {
   );
 }
 
+function NavItem({ href, title, outlined }: SingleNavItem) {
+  const { setIsModalOpened } = useNewsletterModalContext();
 
+  function showNewsletterModal() {
+    setIsModalOpened(true);
+  }
+
+  if (outlined) {
+    return <CustomButton onClick={showNewsletterModal}>{title}</CustomButton>;
+  }
+
+  return (
+    <NavItemWrapper outlined={outlined}>
+      <NextLink href={href} passHref>
+        <a>{title}</a>
+      </NextLink>
+    </NavItemWrapper>
+  );
+}
 
 const CustomButton = styled(Button)`
   padding: 0.75rem 1.5rem;
@@ -101,7 +123,7 @@ const NavItemList = styled.div`
 `;
 
 const HamburgerMenuWrapper = styled.div`
-  ${media('>=mobil')} {
+  ${media('>=desktop')} {
     display: none;
   }
 `;
