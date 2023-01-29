@@ -7,19 +7,19 @@ import Container from 'components/Container';
 import { media } from 'utils/media';
 
 const PARTNER_LOGOS = [
-  'logoipsum-logo-1.svg',
-  'logoipsum-logo-2.svg',
-  'logoipsum-logo-3.svg',
-  'logoipsum-logo-4.svg',
-  'logoipsum-logo-5.svg',
-  'logoipsum-logo-6.svg',
-  'logoipsum-logo-7.svg',
+  'logoipsum-logo-1.png',
+  'logoipsum-logo-2.png',
+  'logoipsum-logo-3.webp',
+  'logoipsum-logo-4.webp',
+  'logoipsum-logo-5.webp',
+  'logoipsum-logo-6.png',
+  'logoipsum-logo-7.png',
 ];
 
 export default function Partners() {
   return (
     <PartnersWrapper>
-      <Title>official partners with</Title>
+      <Title>Sunucu Partnerleri</Title>
       <Swiper
         modules={[Autoplay]}
         slidesPerView={6}
