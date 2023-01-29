@@ -24,7 +24,7 @@ export default function WaveCta() {
           <Title>Hizmetimizden memnunsa neden daha fazlası olmasın ki?</Title>
           <CustomButtonGroup>
 
-            <NextLink href="/features" passHref>
+            <NextLink href="https://panel.selenoid.tech/" passHref>
               <OutlinedButton transparent>
                 Özellikler <span>&rarr;</span>
               </OutlinedButton>
