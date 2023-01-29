@@ -21,11 +21,11 @@ export default function Hero() {
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
+            Sunucu Oluştur <span>&rarr;</span>
           </Button>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
-              Features <span>&rarr;</span>
+              Özellikler <span>&rarr;</span>
             </Button>
           </NextLink>
         </CustomButtonGroup>
