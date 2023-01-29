@@ -24,7 +24,7 @@ export default function Hero() {
             Sunucu Oluştur <span>&rarr;</span>
           
           </Button>
-          <NextLink href="#whitepaper" passHref>
+          <NextLink href="https://selenoid.tech/panel/" passHref>
             <Button transparent>
               Özellikler <span>&rarr;</span>
             </Button>
