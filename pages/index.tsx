@@ -22,7 +22,6 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           name="description"
           content="Selenoid Free Software Server Desk || AMD Threadripper Server And More"
         />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8184557356837733" crossorigin="anonymous"></script>
       </Head>
       <HomepageWrapper>
         <WhiteBackgroundContainer>
