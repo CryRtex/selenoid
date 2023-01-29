@@ -30,13 +30,13 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           <BasicSection imageUrl="/demo-illustration-1.svg" title="Kolay Kullanımlı Bir Panel." overTitle="Kontrol Paneli">
             <p>
               Kontrol panellerimiz tamamen ücretsiz ve kolay kullanım için organize edildi..{' '}
-              <Link href="https://selenoid.tech/panel"/> Eğer ki yardıma yada herhangi bir şeye ihtiyacın varsa burada olacağız.
+              <Link href="https://selenoid.tech/panel" Eğer ki yardıma yada herhangi bir şeye ihtiyacın varsa burada olacağız.</Link>
             </p>
           </BasicSection>
           <BasicSection imageUrl="/demo-illustration-2.svg" title="Sunucu saati ve ek özellikler." overTitle="Nasıl Kazanırım" reversed>
             <p>
               Sunucu saati kazanmak yada ek özellikler mi istiyorsun bize panelden bir bilet açman yeterli olacaktır{' '}
-              <strong>Daha yüksek kaynaklara mı ihtiyacın var?/>
+              <strong>Daha yüksek kaynaklara mı ihtiyacın var?</strong>
             </p>
             
           </BasicSection>
