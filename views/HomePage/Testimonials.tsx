@@ -11,28 +11,28 @@ import { media } from 'utils/media';
 const TESTIMONIALS = [
   {
     companyLogoUrl: '/testimonials/company-logo-1.svg',
-    content: `Really good. I am so pleased with this product. I didn't even need training.`,
+    content: `Sende burada yer alabilirsin.`,
     author: {
-      name: 'Clyde Edwards',
-      title: 'Very Serious Man',
+      name: 'Sunucu sahibi',
+      title: 'Sunucu sahibi',
       avatarUrl: '/testimonials/author-photo-1.jpeg',
     },
   },
   {
     companyLogoUrl: '/testimonials/company-logo-2.svg',
-    content: `It's really wonderful. I use saas product often. Thank You! Saas product has really helped our business.`,
+    content: `Sende burada yer alabilirsin`,
     author: {
-      name: 'Jimmy Hunter',
-      title: 'Sigma Male University Graduate',
+      name: 'Sunucu sahibir',
+      title: 'Sunucu sahibi',
       avatarUrl: '/testimonials/author-photo-2.jpeg',
     },
   },
   {
     companyLogoUrl: '/testimonials/company-logo-3.svg',
-    content: `Since I invested in saas product I made over 100,000 dollars profits. It really saves me time and effort. saas product is exactly what our business has been lacking.`,
+    content: `Sende burada yer alabilirsin`,
     author: {
-      name: 'Marjorie Morgan',
-      title: 'Chief Chad Officer',
+      name: 'Sunucu sahibi',
+      title: 'Sunucu sahibi',
       avatarUrl: '/testimonials/author-photo-3.jpeg',
     },
   },
