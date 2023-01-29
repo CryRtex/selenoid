@@ -26,7 +26,7 @@ const TABS = [
     secondColor: '99,172,232',
   },
   {
-    title: 'Vee Sonunda İşlemcilerimiz Tamamen AMD Ryzen Threadripper',
+    title: 'Vee Sonunda İşlemciler',
     description:
       '<p>İşlemcilerimizi tamamen AMD üzerinde konfigüre ediyor ve sizler için en iyi işlemciyi oluşturuyoruz.</p>',
     imageUrl: '/demo-illustration-5.png',
