@@ -20,11 +20,11 @@ export default function Hero() {
           Hizmetlerimizden tamamen ücretsiz yararlanabiliyorsunuz. Üstelik istediğiniz kadar kaynak kullanımı ile birlikte
         </Description>
         <CustomButtonGroup>
-          <Button href="https://selenoid.tech/panel/">
+          <Button href="https://panel.selenoid.tech/">
             Sunucu Oluştur <span>&rarr;</span>
           
           </Button>
-          <NextLink href="https://selenoid.tech/panel/" passHref>
+          <NextLink href="https://panel.selenoid.tech/" passHref>
             <Button transparent>
               Özellikler <span>&rarr;</span>
             </Button>
