@@ -13,21 +13,21 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>Lorem ipsum dolor sit amet</OverTitle>
-          <SectionTitle>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus?</SectionTitle>
+          <OverTitle>Hizmetlerimizi nasıl buldun</OverTitle>
+          <SectionTitle>Hizmetimizi değerlendirerek eksra ram kazanmak ister misin ?</SectionTitle>
           <Description>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda beatae accusamus deleniti nihil quas tempora numquam, vitae
-            culpa.
+            Hizmetlerimizi beğendiysen bizimde sana küçük bir hediyemiz var ister işlemci gücü ister ekstra bellek al
+            
           </Description>
           <ButtonGroup>
-            <NextLink href="#early-access" passHref>
+            <NextLink href="https://selenoid.tech/panel/" passHref>
               <Button>
-                Subscribe to the newsletter <span>&rarr;</span>
+                Hemen üye ol <span>&rarr;</span>
               </Button>
             </NextLink>
             <NextLink href="#whitepaper" passHref>
               <OutlinedButton transparent>
-                Features <span>&rarr;</span>
+                Özellikler <span>&rarr;</span>
               </OutlinedButton>
             </NextLink>
           </ButtonGroup>
