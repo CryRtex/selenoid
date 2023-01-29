@@ -32,8 +32,13 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8184557356837733"
-           crossorigin="anonymous"></script>
+          <script 
+             data-ad-client="ca-pub-8184557356837733"
+
+             async 
+             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8184557356837733"
+           >
+          </script>
           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
         </Head>
         <body className="next-light-theme">
