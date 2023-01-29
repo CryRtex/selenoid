@@ -21,16 +21,16 @@ const footerItems: FooterItems = [
     title: 'Ürünler',
     items: [
       { title: 'Özellikler', href: '/features' },
-      { title: 'Sunucular', href: 'https://selenoid.tech/panel/' },
-      { title: 'Kullanıcı Paneli', href: 'https://selenoid.tech/panel/' },
+      { title: 'Sunucular', href: 'https://panel.selenoid.tech/' },
+      { title: 'Kullanıcı Paneli', href: 'https://panel.selenoid.tech/' },
     ],
   },
   {
     title: 'Bilgi Bankası',
     items: [
       { title: 'Blog', href: '/blog' },
-      { title: 'İletişim', href: 'https://selenoid.tech/panel/' },
-      { title: 'Yardım Merkezi', href: 'https://selenoid.tech/panel/' },
+      { title: 'İletişim', href: 'https://panel.selenoid.tech/' },
+      { title: 'Yardım Merkezi', href: 'https://panel.selenoid.tech/' },
     ],
   },
 ];
