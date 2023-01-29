@@ -20,12 +20,12 @@ export default function Cta() {
             
           </Description>
           <ButtonGroup>
-            <NextLink href="https://selenoid.tech/panel/" passHref>
+            <NextLink href="https://panel.selenoid.tech/" passHref>
               <Button>
                 Hemen üye ol <span>&rarr;</span>
               </Button>
             </NextLink>
-            <NextLink href="#whitepaper" passHref>
+            <NextLink href="#" passHref>
               <OutlinedButton transparent>
                 Özellikler <span>&rarr;</span>
               </OutlinedButton>
