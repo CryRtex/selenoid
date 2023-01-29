@@ -6,14 +6,14 @@ import Container from 'components/Container';
 import OverTitle from 'components/OverTitle';
 import SectionTitle from 'components/SectionTitle';
 import ThreeLayersCircle from 'components/ThreeLayersCircle';
-import { media } from 'utils/media';
+import { media } from 'public/partners';
 
 const TABS = [
   {
     title: 'Kendine Özgü Sunucunu Oluştur',
     description:
       '<p>Kendine özgü sunucunu tek adımda oluştur ve kullanmaya başla. İşte bu kadar basit</p>',
-    imageUrl: '/demo-illustration-3.png',
+    imageUrl: '/logoipsum-logo-6.png',
     baseColor: '249,82,120',
     secondColor: '221,9,57',
   },
@@ -21,7 +21,7 @@ const TABS = [
     title: 'Ek Özellikler',
     description:
       '<p>Sunucuna ek özellik eklemek çok basit tek tuşla entegre et ve özellik aktif olsun.</p>',
-    imageUrl: '/demo-illustration-4.png',
+    imageUrl: '/logoipsum-logo-7.png',
     baseColor: '57,148,224',
     secondColor: '99,172,232',
   },
@@ -29,7 +29,7 @@ const TABS = [
     title: 'Vee Sonunda İşlemciler',
     description:
       '<p>İşlemcilerimizi tamamen AMD üzerinde konfigüre ediyor ve sizler için en iyi işlemciyi oluşturuyoruz.</p>',
-    imageUrl: '/demo-illustration-5.png',
+    imageUrl: '/logoipsum-logo-6.png',
     baseColor: '88,193,132',
     secondColor: '124,207,158',
   },
