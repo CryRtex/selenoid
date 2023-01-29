@@ -43,7 +43,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
             </p>
             
           </BasicSection>
-        
+        </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
           <Cta />
           <FeaturesGallery />
